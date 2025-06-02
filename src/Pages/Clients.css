@@ -1,0 +1,35 @@
+.client-proof-container {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.client-proof-img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.client-proof-img:hover {
+  max-width: 60%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(244, 124, 124, 0.693);
+}
+
+.client-proof-caption {
+ 
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: center; /* or 'left' if preferred */
+  color: white;
+}
+
+
+.clients-title {
+  font-size: 2.5rem;
+  text-align: center;
+  
+}

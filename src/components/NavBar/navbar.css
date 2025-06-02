@@ -1,0 +1,133 @@
+/* Use a clean Google font like 'Poppins' or 'Inter' */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: transparent;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar {
+  height: 5rem;
+  width: 100vw;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgb(18, 18, 18);
+  transition: background 0.3s ease, backdrop-filter 0.3s ease;
+}
+.navbar.scrolled {
+  background: rgba(0, 0, 0, 0.4); /* dark glass */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+.desktopMenu {
+  display: flex;
+  align-items: center;
+}
+
+.desktopMenuItem {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  margin-right: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.desktopMenuItem:hover {
+  color: palevioletred;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid palevioletred;
+}
+
+.desktopMenuButton {
+  border: none;
+  background: palevioletred;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.desktopMenuButton:hover {
+  background-color: #ff5d94;
+}
+
+.desktopMenuIcon {
+  width: 30px;
+  height: 20px;
+  margin-right: 0.5rem;
+}
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1rem;
+  }
+
+  .desktopMenu {
+    position: fixed;
+    top: 5rem;
+    right: -100%;
+    flex-direction: column;
+    background-color: rgb(30, 30, 30);
+    width: 200px;
+    height: calc(100vh - 5rem);
+    padding: 2rem;
+    transition: 0.3s ease;
+  }
+
+  .desktopMenu.active {
+    right: 0;
+  }
+
+  .desktopMenuItem {
+    margin: 1rem 0;
+  }
+
+  .desktopMenuButton {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0.5rem;
+  }
+
+  .logo {
+    height: 40px;
+  }
+}
+.menuToggleIcon {
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .menuToggleIcon {
+    display: block;
+  }
+
+  .desktopMenuButton {
+    display: none;
+  }
+}

@@ -1,0 +1,48 @@
+.graphic-section {
+  padding: 3rem 1.5rem;
+  background-color: #111;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.graphic-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.graphic-category {
+  margin-bottom: 4rem;
+}
+
+.graphic-category h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.graphic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.graphic-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.graphic-card:hover {
+  transform: scale(1.03);
+}
+
+.graphic-img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain!important;
+}

@@ -1,0 +1,39 @@
+#skills {
+  padding: 4rem 2rem;
+  background-color: rgb(30, 30, 30);
+  text-align: center;
+}
+
+.skills-title {
+  font-size: 2.3rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.skills-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.skill-logo {
+  height: 50px;
+  width: auto;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.skill-logo:hover {
+  transform: scale(1.15);
+}
+
+@media (max-width: 480px) {
+  .skill-logo {
+    height: 45px;
+  }
+
+  .skills-title {
+    font-size: 1.8rem;
+  }
+}

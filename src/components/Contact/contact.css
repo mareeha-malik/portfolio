@@ -1,0 +1,38 @@
+#contact {
+  padding: 3rem 2rem;
+  background-color: rgb(30, 30, 30);
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 2.3rem;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.contact-icon {
+  color: white;
+  font-size: 2rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-icon:hover {
+  color: palevioletred;
+  transform: scale(1.1);
+}
+
+@media (max-width: 480px) {
+  .contact-title {
+    font-size: 1.8rem;
+  }
+
+  .contact-icon {
+    font-size: 1.7rem;
+  }
+}

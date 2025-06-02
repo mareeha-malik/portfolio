@@ -1,0 +1,66 @@
+.web-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  padding-inline: 1rem; /* 👈 Add this */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.web-card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  min-height: 350px;
+}
+
+.web-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.1);
+}
+
+.web-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.web-card-content {
+  padding: 1rem;
+  position: relative;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.web-card-title {
+  font-size: 1.1rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.web-icons {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  gap: 0.75rem;
+}
+
+.web-icon {
+  color: white;
+  font-size: 1.3rem;
+  transition: color 0.3s ease;
+}
+
+.web-icon:hover {
+  color:palevioletred ; /* Light blue or any highlight color */
+}

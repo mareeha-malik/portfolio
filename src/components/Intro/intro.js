@@ -1,6 +1,6 @@
 import React from 'react';
 import './intro.css';
-import intro from '../../assets/intro.png';
+import intro from '../../assets/intro2.png';
 import bag from '../../assets/bag.png';
 import { Link } from 'react-scroll';
 

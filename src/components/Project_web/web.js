@@ -3,9 +3,9 @@ import './web.css';
 import { FiExternalLink, FiGithub } from 'react-icons/fi';
 import project1 from '../../assets/image.png';
 import project2 from '../../assets/MWApp.png';
-import project3 from '../../assets/velora.png';
-import project4 from '../../assets/xoverse.png'; 
-import project5 from '../../assets/planly_.png'; // Assuming you have a fifth project image
+// import project3 from '../../assets/velora.png';
+// import project4 from '../../assets/xoverse.png'; 
+// import project5 from '../../assets/planly_.png'; // Assuming you have a fifth project image
 const projects = [
   {
     title: "E-commerce store",
@@ -33,7 +33,7 @@ const projects = [
   },
   {
     title: "Planly - A Task Management App",
-    img: project5,
+    img: "https://res.cloudinary.com/dugqqxf20/image/upload/v1751730732/planly__nx4toz.png",
    link: "https://planly-five.vercel.app/",
   github: "https://github.com/mareeha-malik/Planly.git"
     } 

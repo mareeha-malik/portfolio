@@ -1,6 +1,6 @@
 import React from 'react';
 import './intro.css';
-import intro from '../../assets/intro5.png';
+// import intro from '../../assets/intro5.png';
 import bag from '../../assets/bag.png';
 import { Link } from 'react-scroll';
 
@@ -24,7 +24,7 @@ const Intro = () => {
             </div>
           </a>
         </div>
-        <img src={intro} alt="Intro" className="introImage" />
+        <img src="https://res.cloudinary.com/dugqqxf20/image/upload/v1751731016/intro5_slq8zn.png" alt="Intro" className="introImage" />
       </div>
     </section>
   );

@@ -3,8 +3,8 @@ import './web.css';
 import { FiExternalLink, FiGithub } from 'react-icons/fi';
 import project1 from '../../assets/image.png';
 import project2 from '../../assets/MWApp.png';
-// import project3 from '../../assets/velora.png';
-// import project4 from '../../assets/xoverse.png'; 
+import project3 from '../../assets/velora.png';
+import project4 from '../../assets/xoverse.png'; 
 // import project5 from '../../assets/planly_.png'; // Assuming you have a fifth project image
 const projects = [
   {

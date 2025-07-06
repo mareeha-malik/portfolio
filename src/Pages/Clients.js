@@ -26,7 +26,7 @@ const Clients = () => {
          <a href="https://www.etsy.com/shop/reelandroyl" target="_blank" rel="noopener noreferrer">
 
         <img
-          src="https://res.cloudinary.com/dugqqxf20/image/upload/v1751813744/MW_nwrhfq.svg"
+          src="https://res.cloudinary.com/dugqqxf20/image/upload/v1751814494/MW_de49e0.png"
           alt="Client Website Screenshot"
           className="client-proof-img"
         />

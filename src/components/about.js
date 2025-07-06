@@ -6,7 +6,7 @@ const About_ = () => {
     <section id="about" className="about-section">
       <div className="about-container">
         <div className="about-image">
-          <img src="intro.png" alt="Profile" />
+          <img src="https://res.cloudinary.com/dugqqxf20/image/upload/v1751731016/intro5_slq8zn.png" alt="Profile" />
         </div>
         <div className="about-content">
           <h2>About Me</h2>

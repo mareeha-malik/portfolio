@@ -1,37 +1,37 @@
 import React from 'react';
 import './ui.css';
 import { FiExternalLink } from 'react-icons/fi';
-import project1 from '../../assets/Blue_Blob.png';
-import project2 from '../../assets/UI2.png';
-import project3 from '../../assets/portfolio.png';
-import project4 from '../../assets/planly.png';
-import project5 from '../../assets/appstore.png';
+// import project1 from '../../assets/Blue_Blob.png';
+// import project2 from '../../assets/UI2.png';
+// import project3 from '../../assets/portfolio.png';
+// import project4 from '../../assets/planly.png';
+// import project5 from '../../assets/appstore.png';
 
 
 const projects = [
   {
     title: "Login Page Design",
-    img: project1,
+    img: "https://res.cloudinary.com/dugqqxf20/image/upload/v1751785497/Blue_Blob_vn7mno.png",
     link: "https://www.figma.com/design/8j4NVvXvfBxHqCLHiJXOzQ/Blue_Blob_Authentication?m=auto&t=d3OfOfYpEATOEOOj-1"
   },
   {
     title: "Landscape Login Page",
-    img: project2,
+    img: "https://res.cloudinary.com/dugqqxf20/image/upload/v1751785502/UI2_paaey7.png",
     link: "https://www.figma.com/design/RON7d70s3K6FiHtIOzHP0l/Landscape-Login?m=auto&t=d3OfOfYpEATOEOOj-1"
   },
   {
     title: "Portfolio Design",
-    img: project3,
+    img: "https://res.cloudinary.com/dugqqxf20/image/upload/v1751785500/portfolio_pnhgt3.png",
     link: "https://https://www.figma.com/design/cT6z9DBmJdHwWU2F1nv6pM/Portfolio-Design?node-id=0-1&p=f&t=S9qUli5qSVKjgkuT-0.figma.com"
   },
   {
     title: "Planly 'Task Management App'",
-    img: project4,
+    img: "https://res.cloudinary.com/dugqqxf20/image/upload/v1751785498/planly_yyxvqa.png",
     link: "https://www.figma.com/design/Myw09ZiCnfL3Kh6iBFnd8V/Untitled?node-id=0-1&p=f&t=P7B9XUI0hXJzbVmp-0"
   },
   {
     title: "App Store Design",
-    img: project5,
+    img: "https://res.cloudinary.com/dugqqxf20/image/upload/v1751793072/appstore_eq0f9f.png",
     link: "https://www.figma.com/design/lTsrcaNqAzeezM9qg9gxzZ/Untitled?node-id=0-1&p=f&t=mCGBMh7fYmLjx4Dl-0"
   }
 ];

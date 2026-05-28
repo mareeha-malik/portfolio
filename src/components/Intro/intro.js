@@ -2,7 +2,7 @@ import React from 'react';
 import './intro.css';
 // import intro from '../../assets/intro5.png';
 import bag from '../../assets/bag.png';
-import { Link } from 'react-scroll';
+// import { Link } from 'react-scroll';
 
 const Intro = () => {
   return (

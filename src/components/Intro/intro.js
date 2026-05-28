@@ -24,7 +24,7 @@ const Intro = () => {
             </div>
           </a>
         </div>
-        <img src="https://res.cloudinary.com/dugqqxf20/image/upload/v1751731016/intro5_slq8zn.png" alt="Intro" className="introImage" />
+        <img src="https://res.cloudinary.com/dugqqxf20/image/upload/v1779989234/pfp1_y3r3qc.jpg" alt="Intro" className="introImage" />
       </div>
     </section>
   );
